@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.page1{
+    height: 70vh;
+    width: 100%;
+    background-color: #111;
+}
+.page1 h1{
+    background-color: #111;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    font-size: 20vw;
+    text-align: center;
+}
+.icon i{
+    font-size: 12vw;
+    color: #f8f8f8;
+    background-color: #111;
+}
+/* pages css */
+.page2,.page3,.page4,.page5,.page6,.page7,.page8,.page9{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+.endPage{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+/*/////////////////////////////////////*/
+.displayBox{
+    height: 450px;
+    width: 80%;
+    cursor: pointer;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+.displayBox img{
+    height: 100%;
+    width: 100%;
+}
+.capcation{
+    position: absolute;
+    top: 360px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #111111bf;
+    opacity: 0;
+    transform: translateY(25px);
+    
+}
+.capcation h1{
+    color: #f8f8f8;
+    font-size: 45px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+.capcation p{
+    color: #f8f8f8;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+/* /// */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 5px ;
+    gap: 310px;
+    background-color: #111;
+}
+.footer h1{
+    font-size: 2vw;
+    color: #f8f8f8;
+    background-color: #111;
+}
+.footer h5{
+    font-size: 1.4vw;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #f8f8f8;
+    background-color: #111;
+    padding-top: 9px;
+    padding-right: 100px;
+}
+.footer i{
+    font-size: 2.2vw;
+    cursor: pointer;
+    color: #f8f8f8;
+    background-color: #111;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+

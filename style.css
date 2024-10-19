@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+/* page 1 css */
+.page1{
+    height: 107vh;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+    cursor: pointer;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    padding: 10px;
+}
+.right{
+    padding: 10px;
+}
+.hover:hover{
+    color: #3a86ff;
+    transition-duration: 0.2s;
+}
+.navbar h1{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #111;
+}
+.navbar h5{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #111;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    text-align: center;
+    background-color: red;
+}
+.main h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 7vw;
+    color: #111;
+}
+.main h3{
+    text-transform: uppercase;
+    line-height: 80px;
+    font-weight: 900;
+    font-size: 4.3vw;
+    color: #111;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    background-color: #f72585;
+    padding: 0 30px;
+    gap: 80px;
+    overflow: hidden;
+}
+.slider1{
+    margin-top: 33px;
+}
+.slides{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    gap: 30px;
+    padding: 32px 5px;
+    flex-shrink: 0;
+}
+.slides h1{
+    font-size: 32px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #111;
+}
+.slides i{
+    font-size: 45px;
+    background-color: transparent;
+    color: #111;
+}
+
+/* page 2  */
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+/* project showcase */
+.projectContainer{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    background-color: #111;
+    /* overflow-x: hidden; */
+}
+.project1, .project2{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    border-radius: 20px;
+    padding: 5px;
+    /* overflow-x: hidden; */
+}
+img{
+    border-radius: 20px;
+    border: none;
+    height: 360px;
+    width: 560px;
+}
+.project1 h3, .project2 h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #f8f8f8;
+    background-color: transparent;
+}
+.project1 p, .project2 p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    color: #f8f8f8;
+    background-color: transparent;
+}
+
+/* page 3 */
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.projectContainer{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    background-color: #111;
+    /* overflow-x: hidden; */
+}
+.project3, .project4{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    border-radius: 20px;
+    padding: 5px;
+    /* overflow-x: hidden; */
+}
+img{
+    border-radius: 20px;
+    border: none;
+    height: 360px;
+    width: 560px;
+}
+.project3 h3, .project4 h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #f8f8f8;
+    background-color: transparent;
+}
+.project3 p, .project4 p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    color: #f8f8f8;
+    background-color: transparent;
+}
+
+/* page 4*/
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #dad7cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+}
+.page4 span{
+    color: #111;
+    font-size: 40vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: transparent;
+    transform: translateX(1550px);
+}
+
+/* page 5 */ 
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.slider2{
+    background-color: #ccff33;
+}
+.slides2{
+    background-color: #ccff33;
+}
+.page5 h2{
+    text-transform: uppercase;
+    font-size: 6vw;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: transparent;
+    color: #111;
+}
+.socialContainer{
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.socialContainer .boxs{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #111;
+    border-radius: 28px;
+    font-size: 23px;
+    font-weight: 300;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 11px;
+    color: #111;
+    cursor: pointer;
+}
+.boxHover:hover{
+    background-color: #111;
+    color: #f8f8f8;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-top: 60px;
+}
+.footer .left h1{
+    font-size: 2vw;
+    color: #111;
+}
+.footer .middle h5{
+    font-size: 1.4vw;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-right: 100px;
+    color: #111;
+}
+.footer .right i{
+    font-size: 2.5vw;
+    cursor: pointer;
+    color: #111;
+}
+
+
+
